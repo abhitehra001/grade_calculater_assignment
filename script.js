@@ -71,5 +71,8 @@ calculate.addEventListener("click", ()=>{
     totalMarks = 0;
     averageMarks = 0;
     gotGrade = "T";
+    grade.innerText = "";
+    average.innerText = "";
+    total.innerText = "";
     calculateGrade();
 })
